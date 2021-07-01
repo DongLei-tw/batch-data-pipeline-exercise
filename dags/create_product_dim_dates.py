@@ -69,7 +69,7 @@ with DAG(
                 id VARCHAR NOT NULL UNIQUE,
                 title VARCHAR,
                 category VARCHAR,
-                price FLOAT,
+                price DECIMAL,
                 processed_time timestamp
             );
             TRUNCATE staging_products;
