@@ -10,4 +10,5 @@ __pycache__
 /*.session.sql
 data/metabase/
 
-*.db
+
+.DS_Store
